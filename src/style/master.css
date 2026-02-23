@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* npx @tailwindcss/cli -i ./src/style/master.css -o ./src/style/output.css --watch */
+.heroBg {
+    background-image: url(../assets/img/hero.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.largeMenuBg {
+    background: #212121;
+    background: linear-gradient(180deg, rgba(33, 33, 33, 1) 10%, rgba(43, 43, 43, 0) 100%);
+}
+
+.myFont {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+}
