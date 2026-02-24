@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="src/style/output.css">
     <link rel="stylesheet" href="src/assets/icons/css/fontello.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.css"> -->
 </head>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="src/js/master.js"></script>
 
 <body class="myFont">
     <!-- page 1 -->
@@ -130,21 +134,107 @@
                 <img class="object-cover" src="src/assets/img/icon2.png" alt="">
             </figure>
             <h3 class="font-bold text-[20px] text-gray-950 text-center w-full">روم سرویس</h3>
-            <p class="text-gray-500 text-[18px] text-center w-full">ارائه خدمات بیست و چهار ساعته روم سرویس در اتاق‌ها</p>
+            <p class="text-gray-500 text-[18px] text-center w-full">ارائه خدمات بیست و چهار ساعته روم سرویس در اتاق‌ها
+            </p>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/5 h-fit lg:border-l lg:border-l-gray-300">
             <figure class="w-[50px] h-fit">
                 <img class="object-cover" src="src/assets/img/icon3.png" alt="">
             </figure>
             <h3 class="font-bold text-[20px] text-gray-950 text-center w-full">اینترنت بی سیم</h3>
-            <p class="text-gray-500 text-[18px] text-center w-full">فراهم بودن اینترنت نامحدود بی سیم با پهنای باند بالا</p>
+            <p class="text-gray-500 text-[18px] text-center w-full">فراهم بودن اینترنت نامحدود بی سیم با پهنای باند بالا
+            </p>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/5 h-fit">
             <figure class="w-[50px] h-fit">
                 <img class="object-cover" src="src/assets/img/icon4.png" alt="">
             </figure>
             <h3 class="font-bold text-[20px] text-gray-950 text-center w-full">رزرواسیون شبانه روزی</h3>
-            <p class="text-gray-500 text-[18px] text-center w-full">امکان رزرو آنلاین اتاق به صورت 24 ساعته و هر روز هفته</p>
+            <p class="text-gray-500 text-[18px] text-center w-full">امکان رزرو آنلاین اتاق به صورت 24 ساعته و هر روز
+                هفته</p>
+        </div>
+    </section>
+
+    <!-- page 4 -->
+    <section class="w-full h-fit flex flex-wrap justify-evenly items-center py-16 *:p-5 gap-y-5 bg-gray-200">
+        <div class="w-full md:w-1/3 h-fit flex flex-wrap items-center *:w-full *:h-fit">
+            <h2 class="font-bold text-3xl text-gray-950 pb-2.5">اتاق‌ها و سوئیت‌های هتل اسپیناس</h2>
+            <h3 class="font-semibold text-yellow-600 text-[20px] pb-2.5">تجربه ای منحصر به فرد در انتظار شماست</h3>
+            <p class="text-gray-500 text-[18px] pt-5">اسپیناس پالاس با احترام به کسانی که این هتل را برای اقامت خود
+                انتخاب می کنند، تمامی امکانات و سرویس های رفاهی یک هتل پنج ستاره ی لوکس را دارا می باشد. لابی این هتل
+                مطابق بروزترین مدل طراحی شده است. این هتل مجلل با 400 اتاق هر آن چیزی که مهمان برای تجربه اقامتی خاص با
+                منظره ای نمادین از شهر تهران نیاز دارد، دارا می باشد.</p>
+        </div>
+        <div class="w-full md:w-1/3 h-fit flex items-center justify-center md:justify-end">
+            <button
+                class="w-fit h-fit py-2 px-5 flex justify-center items-center gap-1 hover:bg-gray-800 rounded-[4px] bg-gray-400 text-white text-center cursor-pointer">
+                <p>مشاهده لیست اتاق‌ها</p>
+                <span class="icon-right"></span>
+            </button>
+        </div>
+        <div class="swiper mySwiper w-full flex flex-wrap justify-evenly items-center">
+            <div class="swiper-wrapper w-full  flex flex-wrap justify-evenly items-center gap-5">
+                <div
+                    class="swiper-slide w-10/12 md:w-1/3 lg:w-1/4 h-[95dvh] bg-white rounded-[5px] flex flex-wrap justify-center gap-y-5 overflow-hidden">
+                    <figure class="w-full h-fit overflow-hidden">
+                        <img class="object-cover hover:scale-[1.1] duration-200"
+                            src="src/assets/img/standard-twinroom-head2.jpg" alt="">
+                    </figure>
+                    <h5 class="w-full p-5 font-bold text-2xl text-gray-950 pb-2.5"> اتاق تویین استاندارد </h5>
+                    <h6 class="w-full px-5 text-gray-400 text-[18px] pb-2.5">55 متر مربع  | با بالکن | چشم انداز کوه </h6>
+                    <p class="w-full p-5 text-gray-500 text-[18px] pt-5"> هر اتاق دو نفره ی تویین شامل سیستم تهویه ی مطبوع هوا، تلویزیون مسطح همراه با کانال های تلویزیونی بین المللی، اینترنت، دو تخت یک نفره و سرویس بهداشتی و حمام می باشد. این اتاق ها به دلیل ادغام مدرنیته و سنت، در عین زیبایی، راحتی را هم برای شما به ارمغان می آورند.</p>
+                    <div
+                        class="w-full p-5 border-t border-t-yellow-600 flex justify-evenly items-center *:w-1/2 *:h-fit *:flex *:justify-center *:gap-x-2 *:items-center">
+                        <p>از _ تومان/هر شب</p>
+                        <div class="cursor-pointer">
+                            <p class="hover:text-yellow-600">مشاهده جزییات بیشتر</p>
+                            <span class="icon-right text-yellow-600"></span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="swiper-slide w-10/12 md:w-1/3 lg:w-1/4 h-[95dvh] bg-white rounded-[5px] flex flex-wrap justify-center gap-y-5 overflow-hidden">
+                    <figure class="w-full h-fit overflow-hidden">
+                        <img class="object-cover hover:scale-[1.1] duration-200"
+                            src="src/assets/img/signature-suit-head1-768x434.jpg" alt="">
+                    </figure>
+                    <h5 class="w-full p-5 font-bold text-2xl text-gray-950 pb-2.5">اتاق بالکن دار خانوادگی رویال </h5>
+                    <h6 class="w-full px-5 text-gray-400 text-[18px] pb-2.5">55 متر مربع | چشم انداز شهر / کوه | بدون بالکن
+                    </h6>
+                    <p class="w-full p-5 text-gray-500 text-[18px] pt-5"> دکوراسیون این اتاق بیانگر شکوه و عظمت فرهنگ و سنت می
+                        باشد. با اقامت در این اتاق، همراه با اعضای خانواده تان از امکانات، تجهیزات و دکوراسیون ویژه ی آن
+                        لذت ببرید و لحظه های خود را ماندگار سازید.</p>
+                    <div
+                        class="w-full p-5 border-t border-t-yellow-600 flex justify-evenly items-center *:w-1/2 *:h-fit *:flex *:justify-center *:gap-x-2 *:items-center">
+                        <p>از _ تومان/هر شب</p>
+                        <div class="cursor-pointer">
+                            <p class="hover:text-yellow-600">مشاهده جزییات بیشتر</p>
+                            <span class="icon-right text-yellow-600"></span>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="swiper-slide w-10/12 md:w-1/3 lg:w-1/4 h-[95dvh] bg-white rounded-[5px] flex flex-wrap justify-center gap-y-5 overflow-hidden">
+                    <figure class="w-full h-fit overflow-hidden">
+                        <img class="object-cover hover:scale-[1.1] duration-200"
+                            src="src/assets/img/royal-room-head2-768x434.jpg" alt="">
+                    </figure>
+                    <h5 class="w-full p-5 font-bold text-2xl text-gray-950 pb-2.5">سوئیت رویال</h5>
+                    <h6 class="w-full px-5 text-gray-400 text-[18px] pb-2.5">120 متر مربع  | بدون بالکن | چشم انداز شهر/کوه</h6>
+                    <p class="w-full p-5 text-gray-500 text-[18px] pt-5"> پرده های مجلل و لوازم پر زرق و برق لوکس به این سوئیت رنگ و بوی ایرانی متفاوتی داده است. اتاق خواب این سوئیت بزرگ، جادار و راحت است. همچنین اتاق نشیمن جداگانه ای با مبلمان شیک و با وقار طراحی شده است.</p>
+                    <div
+                        class="w-full p-5 border-t border-t-yellow-600 flex justify-evenly items-center *:w-1/2 *:h-fit *:flex *:justify-center *:gap-x-2 *:items-center">
+                        <p>از _ تومان/هر شب</p>
+                        <div class="cursor-pointer">
+                            <p class="hover:text-yellow-600">مشاهده جزییات بیشتر</p>
+                            <span class="icon-right text-yellow-600"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next border"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
 </body>
