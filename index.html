@@ -175,7 +175,7 @@
         <div class="swiper mySwiper w-full flex flex-wrap justify-evenly items-center">
             <div class="swiper-wrapper w-full  flex flex-wrap justify-evenly items-center gap-5">
                 <div
-                    class="swiper-slide w-10/12 md:w-1/3 lg:w-1/4 h-[95dvh] bg-white rounded-[5px] flex flex-wrap justify-center gap-y-5 overflow-hidden">
+                    class="swiper-slide w-10/12 md:w-1/4 h-fit lg:h-[95dvh] bg-white rounded-[5px] flex flex-wrap justify-center gap-y-5 overflow-hidden">
                     <figure class="w-full h-fit overflow-hidden">
                         <img class="object-cover hover:scale-[1.1] duration-200"
                             src="src/assets/img/standard-twinroom-head2.jpg" alt="">
@@ -197,7 +197,7 @@
                     </div>
                 </div>
                 <div
-                    class="swiper-slide w-10/12 md:w-1/3 lg:w-1/4 h-[95dvh] bg-white rounded-[5px] flex flex-wrap justify-center gap-y-5 overflow-hidden">
+                    class="swiper-slide w-10/12 md:w-1/4 h-fit lg:h-[95dvh] bg-white rounded-[5px] flex flex-wrap justify-center gap-y-5 overflow-hidden">
                     <figure class="w-full h-fit overflow-hidden">
                         <img class="object-cover hover:scale-[1.1] duration-200"
                             src="src/assets/img/signature-suit-head1-768x434.jpg" alt="">
@@ -220,7 +220,7 @@
                     </div>
                 </div>
                 <div
-                    class="swiper-slide w-10/12 md:w-1/3 lg:w-1/4 h-[95dvh] bg-white rounded-[5px] flex flex-wrap justify-center gap-y-5 overflow-hidden">
+                    class="swiper-slide w-10/12 md:w-1/4 h-fit lg:h-[95dvh] bg-white rounded-[5px] flex flex-wrap justify-center gap-y-5 overflow-hidden">
                     <figure class="w-full h-fit overflow-hidden">
                         <img class="object-cover hover:scale-[1.1] duration-200"
                             src="src/assets/img/royal-room-head2-768x434.jpg" alt="">
@@ -248,7 +248,7 @@
     </section>
 
     <!-- page 5 -->
-    <section class="w-full h-dvh flex flex-wrap justify-evenly py-16 gap-y-5 page5Bg">
+    <section class="w-full h-fit flex flex-wrap justify-evenly py-16 gap-y-5 page5Bg">
         <div class="w-full h-fit flex flex-wrap justify-center *:text-center">
             <figure class="w-[200px] h-fit">
                 <img class="object-cover" src="src/assets/img/espinas_palace_wellness_center.png" alt="">
@@ -282,7 +282,7 @@
         </div>
         <div class="w-10/12 h-fit flex flex-wrap justify-center items-center bg-white rounded-[5px] overflow-hidden">
             <figure class="w-full lg:w-1/2 h-full">
-                <img class="object-cover" src="src/assets/img/espinas_palace_pool.jpg" alt="">
+                <img class="w-full" src="src/assets/img/espinas_palace_pool.jpg" alt="">
             </figure>
             <div class="w-full lg:w-1/2 h-fit flex flex-wrap items-center *:w-full *:h-fit p-10 md:p-16">
                 <h3 class="font-semibold text-yellow-600 text-[20px] pb-2.5">استخر و سونا</h3>
@@ -303,7 +303,32 @@
     </section>
 
     <!-- page 6 -->
-    <section class="w-full h-dvh flex flex-wrap justify-evenly py-16 gap-y-5 bg-gray-200"></section>
+    <section class="w-full h-dvh flex flex-wrap justify-center items-center py-16 gap-y-5 bg-gray-200 *:text-center">
+        <div class="w-full h-fit flex flex-wrap justify-center items-center">
+            <h6 class="w-full p-5 font-bold text-[20px] text-yellow-600 pb-2.5">رستوران های هتل اسپیناس پالاس</h6>
+            <h3 class="w-full px-5 font-bold text-gray-950 text-3xl pb-2.5">رستوران های ایرانی و بین المللی</h3>
+            <p class="w-full md:w-1/2 p-5 text-gray-600 text-[18px] pt-5">طعم های ناب و غذاهای خلاقانه را با هنر بی نظیر
+                آشپزی سرآشپزهای ستاره دار ما، کشف کنید.</p>
+        </div>
+        <figure class="w-full h-fit relative">
+            <img class="object-contain" src="src/assets/img/espinas_skulounge_bg.jpg" alt="">
+            <div
+                class="absolute bottom-10 right-[50%] translate-x-[50%] w-10/12 md:w-1/3 h-fit bg-white rounded-[5px] p-5 flex flex-wrap justify-center items-center">
+                <h6 class="w-full font-bold text-[15px] text-yellow-600 pb-2.5 text-start">رستوران تلفیقی</h6>
+                <h3 class="w-full font-bold text-gray-950 text-2xl pb-2.5 text-start">اسکای لانژ</h3>
+                <p class="w-full text-gray-600 text-[18px] pt-5 text-start">یک مکان پر زرق و برق با منظره جادویی از شهر
+                    تهران و غذاهای بین المللی که توسط سرآشپز برجسته ما تهیه شده است. فضای پر جنب و جوش اسکای لانژ خاطره
+                    ای فراموش نشدنی را برای شما رقم خواهد زد.</p>
+                <div class="w-full h-fit flex justify-center items-center pt-10">
+                    <button
+                        class="w-fit h-fit py-2 px-5 flex justify-center items-center gap-1 hover:bg-gray-800 rounded-[4px] bg-gray-400 text-white text-center cursor-pointer">
+                        <p>مطالعه بیشتر</p>
+                        <span class="icon-right"></span>
+                    </button>
+                </div>
+            </div>
+        </figure>
+    </section>
 </body>
 
 </html>
