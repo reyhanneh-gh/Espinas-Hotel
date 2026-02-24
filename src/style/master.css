@@ -23,3 +23,7 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+.wellBg{
+    background-color:rgba(104, 103, 103, 0.43) ;
+}
