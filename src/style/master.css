@@ -16,3 +16,10 @@
 .myFont {
     font-family: "Baloo Bhaijaan 2", sans-serif;
 }
+
+.page5Bg {
+    background-image: url(../assets/img/espinas_spa_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
