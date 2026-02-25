@@ -329,6 +329,9 @@
   .h-\[200vh\] {
     height: 200vh;
   }
+  .h-\[250vh\] {
+    height: 250vh;
+  }
   .h-\[300vh\] {
     height: 300vh;
   }
@@ -470,6 +473,9 @@
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
+  .gap-2\.5 {
+    gap: calc(var(--spacing) * 2.5);
+  }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
@@ -481,6 +487,9 @@
   }
   .gap-x-5 {
     column-gap: calc(var(--spacing) * 5);
+  }
+  .gap-y-2 {
+    row-gap: calc(var(--spacing) * 2);
   }
   .gap-y-5 {
     row-gap: calc(var(--spacing) * 5);
@@ -605,6 +614,9 @@
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
+  .pt-16 {
+    padding-top: calc(var(--spacing) * 16);
+  }
   .pr-2 {
     padding-right: calc(var(--spacing) * 2);
   }
@@ -622,6 +634,9 @@
   }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
+  }
+  .pb-16 {
+    padding-bottom: calc(var(--spacing) * 16);
   }
   .pl-5 {
     padding-left: calc(var(--spacing) * 5);
@@ -882,6 +897,14 @@
   .placeholder\:text-white {
     &::placeholder {
       color: var(--color-white);
+    }
+  }
+  .hover\:translate-y-\[-10px\] {
+    &:hover {
+      @media (hover: hover) {
+        --tw-translate-y: -10px;
+        translate: var(--tw-translate-x) var(--tw-translate-y);
+      }
     }
   }
   .hover\:translate-y-\[-20px\] {
