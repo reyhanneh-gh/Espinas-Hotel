@@ -31,7 +31,7 @@ The Espinas Palace site was chosen for its elegant design and image-heavy struct
 ### 🧑‍🎨 Credits  
 **Developer:** Reyhaneh Ghalambor  
 **Date:** February 2026  
-**Mentor:** Parsa Ghorbanian  
+**Mentor:** Parsa Ghorbanian / [Parnian School of Front-End](https://trainingsitedesign.ir/) 
 
 ---
 
