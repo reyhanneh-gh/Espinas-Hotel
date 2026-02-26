@@ -1,7 +1,7 @@
 # 🏨 Espinas Palace Hotel – Recreation Project  
 A full recreation of the **Espinas Palace Hotel** website, built using modern frontend tools like Tailwind CSS, JavaScript, and Swiper.js.
 
-🔗 **Live Demo:** https://your-demo-link.com
+[Live Demo](https://reyhanneh-gh.github.io/Espinas-Hotel/) 🪄
 
 ---
 
