@@ -30,7 +30,7 @@ var swiper = new Swiper(".secondSlider", {
     prevEl: ".swiper-button-prev",
   },
 });
-// ------------large screen side menu---------------
+// ------------side menu---------------
 let menuBtn = document.getElementById("menu")
 let sideMenu = document.querySelectorAll(".sideMenu")
 let closeBtn = document.querySelectorAll(".closeBtn")
