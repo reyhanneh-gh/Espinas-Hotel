@@ -1,11 +1,33 @@
 // ----------------------slider------------------------
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".firstSlider", {
   slidesPerView: 3,
   spaceBetween: 30,
   freeMode: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+  },
+  breakpoints: {
+    0: { slidesPerView: 1, spaceBetween: 10 },
+    640: { slidesPerView: 2, spaceBetween: 20 },
+    1024: { slidesPerView: 3, spaceBetween: 30 }
+  }
+});
+
+var swiper = new Swiper(".secondSlider", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
 // ------------large screen side menu---------------
